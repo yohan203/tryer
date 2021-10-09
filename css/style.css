@@ -1,0 +1,36 @@
+.header {
+    background-color: black;
+    margin-top: 9%;
+    padding: 10%;
+}
+h1 {
+    color: white;
+    padding: 0% 50%;
+    
+}
+/*small*/
+@media (min-width: 768px) {
+    .container {
+        width: 750;
+    }
+}
+
+/*medium*/
+@media (min-width: 992) {
+    .container {
+        width: 970;
+    }
+}
+/*large*/
+@media (min-width: 1200) {
+    .container {
+        width: 1170;
+    }
+}
+.medium {
+    background-color: green;
+    width: 50%;
+}
+p {
+    color: gray;
+}
